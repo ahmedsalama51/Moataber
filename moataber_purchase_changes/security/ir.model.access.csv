@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_product_landry_code_user,product_landry_code,model_product_landry_code,,1,1,1,1

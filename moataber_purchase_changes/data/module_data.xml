@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!--Edit Colors-->
+<!--        <record id="product.product_attribute_2" model="product.attribute">-->
+<!--            <field name="name">Color</field>-->
+<!--        </record>-->
+    </data>
+</odoo>
