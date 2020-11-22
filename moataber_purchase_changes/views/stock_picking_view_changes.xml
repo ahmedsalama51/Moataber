@@ -9,6 +9,8 @@
                 <xpath expr="//field[@name='backorder_id']" position="after">
                     <field name="driver_name" attrs="{'required':[('picking_type_code','=','incoming')],
                     'invisible':[('picking_type_code','!=','incoming')]}"/>
+                    <field name="transfer_comp_name" attrs="{'required':[('picking_type_code','=','incoming')],
+                    'invisible':[('picking_type_code','!=','incoming')]}"/>
                 </xpath>
                 <xpath expr="//field[@name='owner_id']" position="after">
                     <field name="car_number" attrs="{'required':[('picking_type_code','=','incoming')],

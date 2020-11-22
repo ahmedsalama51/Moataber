@@ -10,5 +10,6 @@ class StockPickingInherit(models.Model):
 	driver_name = fields.Char("Driver Name")
 	car_number = fields.Char("Car Number")
 	port_weight = fields.Char("Port Balance Weight")
+	transfer_comp_name = fields.Char("Transfer Company Name")
 
 # Ahmed Salama Code End.
